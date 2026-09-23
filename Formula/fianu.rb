@@ -2,27 +2,27 @@
 class Fianu < Formula
   desc "Fianu CLI — DevOps, gating, and security operations for the Fianu platform"
   homepage "https://fianu.io"
-  version "1.9.77"
+  version "1.9.78"
 
   on_macos do
     on_arm do
-      url "https://github.com/fianulabs/homebrew-tap/releases/download/v1.9.77/cli_Darwin_arm64.tar.gz"
-      sha256 "a5bb70b413637acd75d86ff8c25fed3c8f4f76d1d4daf9c1a398a03d1a8d16e3"
+      url "https://github.com/fianulabs/homebrew-tap/releases/download/v1.9.78/cli_Darwin_arm64.tar.gz"
+      sha256 "e99400fe95e6c130281b24de534b158d7723b9321a321ee2505e13bcf5779e7e"
     end
     on_intel do
-      url "https://github.com/fianulabs/homebrew-tap/releases/download/v1.9.77/cli_Darwin_x86_64.tar.gz"
-      sha256 "bd6469a91edfcaf2ac620fea8609b88249551f64987a2f2139da6c5a31460b44"
+      url "https://github.com/fianulabs/homebrew-tap/releases/download/v1.9.78/cli_Darwin_x86_64.tar.gz"
+      sha256 "a313841357f4948e631b593d67df63a65417e8c5708242ff665c8ce650548fe6"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/fianulabs/homebrew-tap/releases/download/v1.9.77/cli_Linux_arm64.tar.gz"
-      sha256 "c28f1c46d6315eb96e1afeb275d83b86ba968445491bd2ccd9560bbb2ccc3eb4"
+      url "https://github.com/fianulabs/homebrew-tap/releases/download/v1.9.78/cli_Linux_arm64.tar.gz"
+      sha256 "88478a294f2a1d077a807b2a8650b1724767598265afc52fdad854531d2a7071"
     end
     on_intel do
-      url "https://github.com/fianulabs/homebrew-tap/releases/download/v1.9.77/cli_Linux_x86_64.tar.gz"
-      sha256 "b54fe4ca2b42468cde9753b615d4b40102b0063b56c35261c1101563b1856f7f"
+      url "https://github.com/fianulabs/homebrew-tap/releases/download/v1.9.78/cli_Linux_x86_64.tar.gz"
+      sha256 "6616088965b968e9807bd8d8bb22981f5be9ab75d79ad74d1bade30257a9b95d"
     end
   end
 
