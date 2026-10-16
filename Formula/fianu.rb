@@ -7,22 +7,22 @@ class Fianu < Formula
   on_macos do
     on_arm do
       url "https://github.com/fianulabs/homebrew-tap/releases/download/v1.9.79/cli_Darwin_arm64.tar.gz"
-      sha256 "142bb3aeb58d0cd73fea350accea01db8ff2bbcd6124c8ea3a7a805834579ff0"
+      sha256 "35fa3a2257a3f13a3e4eef55da6300673fe53d11b6afd2231153cc3d1980b984"
     end
     on_intel do
       url "https://github.com/fianulabs/homebrew-tap/releases/download/v1.9.79/cli_Darwin_x86_64.tar.gz"
-      sha256 "e623dbb915a434c2eabd42f794c5a60954fc03bbd669b6394212fb1f9e3433b0"
+      sha256 "2b2e18f66686b4a4e52dd2881739c7b054508735f45a4c7e177a50d9e968e0bd"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/fianulabs/homebrew-tap/releases/download/v1.9.79/cli_Linux_arm64.tar.gz"
-      sha256 "06e254335b0446b5848b4c29528579bd8a41901a667662ad7d17e792cfea30c4"
+      sha256 "fa958eae15024fdc5a9704e4b22f0203e32524006f78132b2a9e7eb8f016cd78"
     end
     on_intel do
       url "https://github.com/fianulabs/homebrew-tap/releases/download/v1.9.79/cli_Linux_x86_64.tar.gz"
-      sha256 "c0f98dcce882837b54eb59012825a42fb6a55fefdcfcbd422f1c6db5a8841e32"
+      sha256 "8148fb2e74c850b99cee4841e883115e8fb92044c702528f6cb9c68543071ec6"
     end
   end
 
